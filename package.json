@@ -10,7 +10,6 @@
     "@testing-library/user-event": "^13.5.0",
     "antd": "^4.19.2",
     "events": "^3.3.0",
-    "highlight": "^0.2.4",
     "lodash": "^4.17.21",
     "markdown-it": "^12.3.2",
     "prop-types": "^15.8.1",
