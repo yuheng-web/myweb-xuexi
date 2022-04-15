@@ -1,0 +1,66 @@
+{
+  "type": "notice",
+  "name": "通知",
+  "date": "2022-04-14",
+  "weekday": "周四",
+  "items": [
+    {
+      "type": "link",
+      "info": "雁塔区疫情防控举报奖励公告 (雁塔区新型肺炎疫情防控指挥部办公室2022年4月14日)",
+      "url": "https://wap.peopleapp.com/article/rmh27972256/rmh27972256"
+    },
+    {
+      "type": "image",
+      "url": "https://s2.loli.net/2022/04/15/X67rxcQmOCK25YZ.jpg",
+      "del": "https://sm.ms/delete/E71CGkl4AismxrcNetVJW3Q6f8"
+    },
+    {
+      "type": "msg",
+      "info": "每日要求",
+      "lines": [
+        "同学们在家每天锻炼身体，帮助家长干力所能及的事，并把照片发到群里。"
+        ,"aaa"
+      ],
+      "status": "info"
+    },
+    {
+      "type": "title",
+      "info": "课程资源平台"
+    },
+    {
+      "type": "link",
+      "info": "国家中小学网络云平台",
+      "url": "https://ykt.eduyun.cn/"
+    },
+    {
+      "type": "link",
+      "info": "北师大版数学微课资源（上册 第14周）",
+      "url": "https://mp.weixin.qq.com/s/Z7SeV4ivf2JKS8j_nxsL_w"
+    },
+    {
+      "type": "link",
+      "info": "北师大版数学微课资源（上册 第15周）",
+      "url": "https://mp.weixin.qq.com/s/6xrE8DChV7PTXLFtk9fljQ"
+    },
+    {
+      "type": "link",
+      "info": "数学北师大版精品资源",
+      "url": "https://mp.weixin.qq.com/s/w7BdJSkgCbl6pirygtomjg"
+    },
+    {
+      "type": "link",
+      "info": "西安市优质教育资源共享平台",
+      "url": "http://gykzb.xaeduyun.cn/live/index.html?&gid="
+    },
+    {
+      "type": "link",
+      "info": "眼保健操（完整教学版）",
+      "url": "https://mp.weixin.qq.com/s?fallback_from_env=not_support&vid=wxv_2290392257793081344&__biz=MzAwNDA5NDAzMA==&mid=2247502588&idx=1&sn=6c3f15e91a9c5607c896314fa355ab1f&mpshare=1&scene=1&srcid=0415j2GoI2Vtm6HE91fdszq2&sharer_sharetime=1649982517692&sharer_shareid=d953d04b7edc321f1bdcd9e9b744f79d&key=223de2ce475671b39ddfdd70b412a95f88397ce2539cafe6b2f916ce2e5601bd5b6b28f7b6b410ade1757d4bc323de0de25520d94ed2789883b01adb57363aa0f675c3d041b6679f45465f8ef03a6d8622f6394bb11b679b7e0703364e7f0b0f549768668d7d44576dfff38e4ed30bc34ed2a792227d54d969b0bab75e5d540e&ascene=1&uin=NTIyMDgwNDk1&devicetype=iMac+MacBookPro16%2C1+OSX+OSX+12.3.1+build(21E258)&version=13030111&nettype=WIFI&lang=en&fontScale=100&exportkey=AxWC1CIpaY5h3XlUEEh%2Fb80%3D&acctmode=0&pass_ticket=pq3UfoznIOAvMDEHp3jxxe5cK42OUbtv%2BHCN5hlrYCvHlkTM7wmW6HZIjQirEBJR&wx_header=0&fontgear=2.000000"
+    },
+    {
+      "type": "link",
+      "info": "第九套广播体操（B站视频）",
+      "url": "https://www.bilibili.com/video/BV1tJ411E7Pd?p=1&share_medium=android&share_plat=android&share_session_id=308889a3-d151-40f6-8900-54ba4c415a44&share_source=WEIXIN&share_tag=s_i&timestamp=1639626250&unique_k=oWJ24PF"
+    }
+  ]
+}

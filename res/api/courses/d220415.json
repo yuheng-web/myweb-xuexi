@@ -1,0 +1,82 @@
+{
+  "type": "dayCourse",
+  "name": "课程",
+  "date": "2022-04-15",
+  "weekday": "周五",
+  "courses": [
+    {
+      "type": "lang",
+      "name": "语文",
+      "items": [
+        {
+          "type": "title",
+          "info": "上午8点通知：上午同学们在家完成上面两页习题。"
+        },
+        {
+          "type": "image",
+          "url": "https://s2.loli.net/2022/04/15/MPe3gBYbZ27Fxun.jpg",
+          "del": "https://sm.ms/delete/S37MTGozHDCR6QZImhvN5jedVa"
+        },
+        {
+          "type": "image",
+          "url": "https://s2.loli.net/2022/04/15/86dCynMaeTDGpF2.jpg",
+          "del": "https://sm.ms/delete/7l1GNKsizrJOjgYWnSXfayEDtL"
+        },
+        {
+          "type": "title",
+          "info": "13:30通知：各位同学下午2点30先看第一个链接的视频，在看第二个，看完之后做眼保健操。"
+        },
+        {
+          "type": "link",
+          "info": "语文园地四 第1课时",
+          "url": "https://h5.zxx.edu.cn/syncClassroom/classActivity?activityId=0d11ec96-4740-4bb3-af33-6a619f383061"
+        },
+        {
+          "type": "link",
+          "info": "语文园地四 第2课时",
+          "url": "https://h5.zxx.edu.cn/syncClassroom/classActivity?activityId=7e1832d8-24fa-4acc-a044-35977a837fc1"
+        },
+        {
+          "dev": "girl",
+          "type": "image",
+          "url": "https://s2.loli.net/2022/03/16/fiE9PRJbBc4Tjew.jpg",
+          "del": "https://sm.ms/delete/3yjYwlVSKdaWGDR6pf5XB4JiFT"
+        },
+        {
+          "dev": "girl",
+          "type": "image",
+          "url": "https://s2.loli.net/2022/03/16/CxKgGDdoYkbmXEi.jpg",
+          "del": "https://sm.ms/delete/b1XsxLZtH8rcdFuGh4m3Tp2vVj"
+        },
+        {
+          "dev": "girl",
+          "type": "image",
+          "url": "https://s2.loli.net/2022/03/16/YxTq98BrU3u27bt.jpg",
+          "del": "https://sm.ms/delete/r7ZG4kIXPN5aTly3AVhw2voRD6"
+        }
+      ]
+    },
+    {
+      "type": "course",
+      "name": "数学",
+      "items": [
+        {
+          "type": "msg",
+          "title": "4月15日 数学学习任务",
+          "lines": [
+            "完成后附习题。（能打印的打印完成，打印不了的在练习本上标清题号完成。）",
+            " 完成后提交到小管家，截时间20：00。",
+            "若周一不复课，就周一开直播讲解。",
+            "另，把学习照片发进群里。"
+          ],
+          "status": "success"
+        },
+        {
+          "type": "link",
+          "info": "作业文件（直接点击打开）",
+          "url": "xuexi-files/math/220415"
+        }
+      ]
+    }
+  ]
+}

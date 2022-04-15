@@ -1,0 +1,50 @@
+@import '~antd/dist/antd.css';
+
+.App {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+//.App-logo {
+  //height: 40vmin;
+  //pointer-events: none;
+//}
+
+.App-header {
+  //background-color: #282c34;
+  //align-items: center;
+  //justify-content: center;
+  font-size: calc(10px + 2vmin);
+  //color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.site-layout-content {
+  min-height: 280px;
+  padding: 24px;
+  background: #fff;
+}
+#components-layout-demo-top .logo {
+  float: left;
+  width: 120px;
+  height: 31px;
+  margin: 16px 24px 16px 0;
+  background: rgba(255, 255, 255, 0.3);
+}
+.ant-row-rtl #components-layout-demo-top .logo {
+  float: right;
+  margin: 16px 0 16px 24px;
+}
+
+.logo {
+  width: 31px;
+  height: 31px;
+  float: left;
+  margin: 16px 24px 16px 0;
+  background: rgba(205, 205, 205, 0.3);
+}
+
