@@ -5,13 +5,6 @@ import ItemPart from "./itemPart";
 const {TabPane} = Tabs;
 
 export default function Courses(props) {
-    // let params = useParams();
-
-    const imgStyle = {
-        width: "70%", margin: "20px"
-    };
-
-    // console.log(props)
     if (!props.data.courses) {
         props.data.courses = []
     }
@@ -28,8 +21,6 @@ export default function Courses(props) {
                             <Tabs key={idx} defaultActiveKey="1">
                                 <TabPane>
                                     <div>{course.type}, {course.name}</div>
-                                    {/*<ItemPart data={course.items}/>*/}
-                                    {/*{JSON.stringify(course.items)}*/}
                                     {
                                         course.items.map(
                                             (ci, idx) =>
