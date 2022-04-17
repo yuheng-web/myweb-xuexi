@@ -1,5 +1,4 @@
 import {Alert} from "antd";
-import {instanceOf} from "prop-types";
 
 export default function ItemPart(props) {
 
@@ -11,9 +10,8 @@ export default function ItemPart(props) {
 
         case 'link':// 超链接
             return (
-                <p><a href={props.data.url} target="_blank">{props.data.info}</a></p>
+                <p><a href={props.data.url} target="_blank" rel="noreferrer">{props.data.info}</a></p>
             );
-            break;
 
         case 'image':// 图片
             let imgStyle = {
@@ -27,11 +25,10 @@ export default function ItemPart(props) {
                             ? <h3 style={imgStyle}>{props.data.title}</h3>
                             : ''
                     }
-                    <img src={props.data.url} style={imgStyle}/><br/>
+                    <img src={props.data.url} style={imgStyle} alt=""/><br/>
                     <span style={{fontStyle:"italic", fontSize:"smaller", color:"lightgrey"}}>{props.data.del}</span>
                 </p>
             );
-            break;
         case 'msg':// 消息
             return (
                 <div style={{margin:'0.5rem'}}>
@@ -43,13 +40,10 @@ export default function ItemPart(props) {
                     </ol>
                 </div>
             );
-            break;
         case 'title':// 标题
             return (<Alert message={props.data.info} type="success"></Alert>)
-            break;
         default:
             let json = JSON.stringify(props);
             return (<p>{json}</p>);
-            break;
     }
 }
