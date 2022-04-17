@@ -25,3 +25,6 @@ yarn-error.log*
 # dev
 .idea/
 package-lock.json
+
+# others
+zzz.txt
