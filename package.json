@@ -30,6 +30,7 @@
       "last 1 safari version"
     ]
   },
+  "proxy": "https://icanbe.vip/xuexi/",
   "dependencies": {
     "@ant-design/icons": "^4.7.0",
     "@testing-library/jest-dom": "^5.16.2",
