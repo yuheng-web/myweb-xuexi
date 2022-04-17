@@ -19,9 +19,9 @@ export default function Main(props) {
 
     return (
         <Routes>
-            <Route path="" element={<App menu={menuList}/>}>
-                <Route index exact={true} element={<Welcome/>}/>
-                <Route exact={true} path=":clsId" element={<MainPage/>}/>
+            <Route path="/" element={<App menu={menuList}/>}>
+                <Route index element={<Welcome/>}/>
+                <Route path=":clsId" element={<MainPage/>}/>
             </Route>
         </Routes>
     );

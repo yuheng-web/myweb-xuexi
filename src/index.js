@@ -3,14 +3,14 @@ import ReactDOM from 'react-dom';
 import './index.scss';
 import Main from './main';
 import reportWebVitals from './reportWebVitals';
-import {BrowserRouter} from "react-router-dom";
+import {HashRouter as Router} from "react-router-dom";
 
 ReactDOM.render(
     // 执行两次 render 的原因 https://react.docschina.org/docs/strict-mode.html
     <React.StrictMode>
-        <BrowserRouter>
+        <Router>
             <Main/>
-        </BrowserRouter>
+        </Router>
     </React.StrictMode>,
     document.getElementById('root')
 );

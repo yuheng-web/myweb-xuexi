@@ -15,19 +15,11 @@ export default function App(props) {
             <Header>
                 <div className="logo"/>
                 <Menu theme="dark" mode="horizontal" defaultSelectedKeys={['home']} selectedKeys={[`${selectClsId}`]}>
-                    <Menu.Item key="d220414">
-                        <Link to="..">HomePage</Link>
-                        /
-                        <a href=".">HomePage</a>
-                    </Menu.Item>
                     {
                         props.menu
-                            .filter(mi => mi.key !== 'home')
                             .map(mi => (
                             <Menu.Item key={mi.key}>
-                                <Link to={mi.key === 'home' ? ".." : "../" + mi.key}>{mi.name}</Link>
-                                /
-                                <a href={mi.key === 'home' ? "." : `./${mi.key}`}>{mi.name}</a>
+                                <Link to={mi.key === 'home' ? "/" : mi.key}>{mi.name}</Link>
                             </Menu.Item>
                         ))
                     }
