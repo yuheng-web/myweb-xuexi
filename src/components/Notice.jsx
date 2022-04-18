@@ -1,4 +1,4 @@
-import ItemPart from "./itemPart";
+import Segment from "./Segment";
 
 export default function Notice(props) {
 
@@ -13,7 +13,7 @@ export default function Notice(props) {
                 <span style={{fontSize: "small", marginLeft: "1rem"}}>{props.data.date} / {props.data.weekday}</span>
             </h2>
             {
-                props.data.items.map((value, idx) => <ItemPart key={idx}  data={value}/>)
+                props.data.items.map((value, idx) => <Segment key={idx} data={value}/>)
             }
         </div>
     );

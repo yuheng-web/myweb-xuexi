@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.scss';
-import Main from './main';
+import App from './App';
 import reportWebVitals from './reportWebVitals';
 import {HashRouter as Router} from "react-router-dom";
 
@@ -9,7 +9,7 @@ ReactDOM.render(
     // 执行两次 render 的原因 https://react.docschina.org/docs/strict-mode.html
     <React.StrictMode>
         <Router>
-            <Main/>
+            <App/>
         </Router>
     </React.StrictMode>,
     document.getElementById('root')

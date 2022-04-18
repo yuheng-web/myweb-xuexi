@@ -1,6 +1,6 @@
 import {Alert} from "antd";
 
-export default function ItemPart(props) {
+export default function Segment(props) {
 
     if(!props.data) {
         return (<p>"No props.data"</p>);

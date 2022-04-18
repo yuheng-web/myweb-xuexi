@@ -1,40 +1,30 @@
-import './App.scss';
-import {Layout, Menu} from 'antd';
-import React from "react";
-import {Link, Outlet, useParams} from "react-router-dom";
+import React, {useEffect, useState} from 'react';
+import {Route, Routes} from "react-router-dom";
+import AppLayout from "./layouts/AppLayout";
+import Home from "./pages/Home";
+import Main from "./pages/Main";
 
-const {Header, Content, Footer} = Layout;
 
 export default function App(props) {
 
-    let params = useParams();
-    let selectClsId = params.clsId === undefined ? 'home' : params.clsId;
+    let [menuList, setMenuList] = useState([{"key": "home", "name": "首页"}]);
 
-    return (<div className="App">
-        <Layout className="layout">
-            <Header>
-                <div className="logo"/>
-                <Menu theme="dark" mode="horizontal" defaultSelectedKeys={['home']} selectedKeys={[`${selectClsId}`]}>
-                    {
-                        props.menu
-                            .map(mi => (
-                            <Menu.Item key={mi.key}>
-                                <Link to={mi.key === 'home' ? "/" : mi.key}>{mi.name}</Link>
-                            </Menu.Item>
-                        ))
-                    }
-                </Menu>
-            </Header>
-            <Content style={{padding: '0 50px'}}>
-                <div className="site-layout-content">
-                    <Outlet/>
-                </div>
-            </Content>
-            <Footer style={{textAlign: 'center'}}>
-                Ant Design ©2018 Created by Ant UED
-            </Footer>
-        </Layout>
+    useEffect(
+        () =>
+            fetch("api/courses/all.json")
+                .then(resp => resp.json())
+                .then(result => setMenuList(result)),
+        []
+    );
 
-    </div>);
-
+    return (
+        <Routes>
+            <Route path="/" element={<AppLayout menu={menuList}/>}>
+                <Route index element={<Home/>}/>
+                <Route path=":clsId" element={<Main/>}>
+                    {/*<Route index element={null}/>*/}
+                </Route>
+            </Route>
+        </Routes>
+    );
 }

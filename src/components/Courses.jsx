@@ -1,6 +1,6 @@
 import React from "react";
 import {Tabs} from "antd";
-import ItemPart from "./itemPart";
+import Segment from "./Segment";
 
 const {TabPane} = Tabs;
 
@@ -24,7 +24,7 @@ export default function Courses(props) {
                                     {
                                         course.items.map(
                                             (ci, idx) =>
-                                                <ItemPart key={idx + 1} data={ci}/>
+                                                <Segment key={idx + 1} data={ci}/>
                                         )
                                     }
                                 </TabPane>

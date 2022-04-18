@@ -1,9 +1,9 @@
 import {useEffect, useState} from "react";
 import {useParams} from "react-router-dom";
-import Courses from "../components/courses";
+import Courses from "../components/Courses";
 import Notice from "../components/Notice";
 
-export default function MainPage(props) {
+export default function Main(props) {
 
     let params = useParams();
     const [data, setData] = useState({type: "notice"});
