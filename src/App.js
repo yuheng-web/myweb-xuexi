@@ -21,7 +21,7 @@ export default function App(props) {
         <Routes>
             <Route path="/" element={<AppLayout menu={menuList}/>}>
                 <Route index element={<Home/>}/>
-                <Route path=":clsId" element={<Main/>}>
+                <Route path=":mainId" element={<Main/>}>
                     {/*<Route index element={null}/>*/}
                 </Route>
             </Route>

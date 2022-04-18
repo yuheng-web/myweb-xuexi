@@ -10,10 +10,10 @@ export default function Main(props) {
 
     useEffect(
         () =>
-            fetch('api/courses/' + params.clsId + '.json')
+            fetch('api/courses/' + params.mainId + '.json')
                 .then(resp => resp.json())
                 .then(json => setData(json)),
-        [params.clsId]
+        [params.mainId]
     );
 
     return (
