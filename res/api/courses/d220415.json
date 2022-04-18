@@ -1,13 +1,11 @@
 {
-  "type": "dayCourse",
-  "name": "课程",
   "date": "2022-04-15",
   "weekday": "周五",
-  "courses": [
+  "items": [
     {
       "type": "lang",
       "name": "语文",
-      "items": [
+      "segments": [
         {
           "type": "title",
           "info": "上午8点通知：上午同学们在家完成上面两页习题。"
@@ -59,7 +57,7 @@
     {
       "type": "course",
       "name": "数学",
-      "items": [
+      "segments": [
         {
           "type": "msg",
           "title": "4月15日 数学学习任务",
