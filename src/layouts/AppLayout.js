@@ -8,7 +8,7 @@ const {Header, Content, Footer} = Layout;
 export default function AppLayout(props) {
 
     let params = useParams();
-    let selectClsId = params.mainId === undefined ? 'home' : params.mainId;
+    let selectClsId = params.pageId === undefined ? 'home' : params.pageId;
 
     return (<div className="App">
         <Layout className="layout">

@@ -2,7 +2,7 @@ import {Alert} from "antd";
 
 export default function Segment(props) {
 
-    if(!props.data) {
+    if (!props.data) {
         return (<p>"No props.data"</p>);
     }
 
@@ -26,16 +26,16 @@ export default function Segment(props) {
                             : ''
                     }
                     <img src={props.data.url} style={imgStyle} alt=""/><br/>
-                    <span style={{fontStyle:"italic", fontSize:"smaller", color:"lightgrey"}}>{props.data.del}</span>
+                    <span style={{fontStyle: "italic", fontSize: "smaller", color: "lightgrey"}}>{props.data.del}</span>
                 </p>
             );
         case 'msg':// 消息
             return (
-                <div style={{margin:'0.5rem'}}>
+                <div style={{margin: '0.5rem'}}>
                     <h4>{props.data.info}</h4>
                     <ol>
                         {
-                            props.data.lines.map((v,idx)=><li key={idx}>{v}</li>)
+                            props.data.lines.map((v, idx) => <li key={idx}>{v}</li>)
                         }
                     </ol>
                 </div>
