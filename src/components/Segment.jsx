@@ -1,4 +1,5 @@
 import {Alert} from "antd";
+import _ from 'lodash'
 
 export default function Segment(props) {
 
@@ -17,6 +18,10 @@ export default function Segment(props) {
             let imgStyle = {
                 width: "70%", margin: "20px"
             };
+
+            if(!!props.data.style) {
+                imgStyle = _.extend(imgStyle, props.data.style);
+            }
 
             return (
                 <p>
