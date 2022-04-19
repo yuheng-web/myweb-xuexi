@@ -1,0 +1,94 @@
+{
+  "date": "2022-04-18",
+  "weekday": "周一",
+  "items": [
+    {
+      "type": "total",
+      "name": "今日安排",
+      "segments": [
+        {
+          "type": "msg",
+          "title": "4月18日 学习任务",
+          "lines": [
+            "8：30—9：00，早读，复习本学期背诵过的课文和朗读生字词。",
+            "9：10—9：50，学习语文课程（群里链接）。",
+            "10：10—10：50，学习数学。",
+            "眼保健操（照片发群里）",
+            "11：30—12：00，体育锻炼（照片发群里）",
+            "吃饭午休",
+            "2：30—3：00，讲解数学题。",
+            "3：10—4：00，直播讲解语文。",
+            "家务劳动",
+            "如需要调整，我会在群里发通知，请大家密切关注群消息。"
+          ],
+          "status": "success"
+        }
+      ]
+    },
+    {
+      "type": "notice",
+      "name": "通知",
+      "segments": [
+        {
+          "type": "image",
+          "url": "https://s2.loli.net/2022/04/18/lMrW3YyaNugq6RO.jpg",
+          "del": "https://sm.ms/delete/hufYVxALmlRqGn7v84cKZJNMO3"
+        }
+      ]
+    },
+    {
+      "type": "lang",
+      "name": "语文",
+      "segments": [
+        {
+          "type": "title",
+          "info": "先学第一个，然后学第二个，该做笔记的地方，做笔记。"
+        },
+        {
+          "type": "link",
+          "info": "寓言二则（一）",
+          "url": "https://www.zxx.edu.cn/syncClassroom/classActivity?activityId=d92ecfdf-592d-49f8-b4aa-d0f0a42a27b5"
+        },
+        {
+          "type": "link",
+          "info": "寓言二则（二）",
+          "url": "https://www.zxx.edu.cn/syncClassroom/classActivity?activityId=5dfd47ef-b3d9-4bab-acbb-061408cfbb60"
+        }
+      ]
+    },
+    {
+      "type": "math",
+      "name": "数学",
+      "segments": [
+        {
+          "type": "msg",
+          "title": "数学打印的题目",
+          "lines": [
+            "我把做得比较好的同学的题发出来，同学们今天下午自己对照检查并改错。",
+            "周五提交的作业已查看，由于是复习内容，大多数同学都完成的非常认真，反馈质量较高。",
+            "全对的同学在左上角写上\uD83D\uDCAF ；有问题的同学用红笔打上小小的❌ ，旁边订错即可。（务必如实反馈）",
+            "明天仍需直播讲解。"
+          ]
+        },
+        {
+          "type": "image",
+          "url": "https://s2.loli.net/2022/04/18/5na8VeDmulSWBtX.jpg",
+          "del": "https://sm.ms/delete/KEVn36YpTR5eF1Lmlvq2sJfuoG",
+          "style": {
+            "maxWidth": "600px"
+          }
+        },
+        {
+          "type": "link",
+          "info": "上面的课程链接：点击打开",
+          "url": "https://mp.weixin.qq.com/s/kNfm_Gfz-z0OPoUIOyw7TA"
+        },
+        {
+          "type": "image",
+          "url": "https://s2.loli.net/2022/04/18/bNSvu3i12AyV6sk.jpg",
+          "del": "https://sm.ms/delete/52H8jOD7VkJbvBlh1sAEWUcXIp"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "date": "2022-04-19",
+  "weekday": "周二",
+  "items": [
+    {
+      "type": "lang",
+      "name": "语文",
+      "segments": [
+        {
+          "type": "image",
+          "url": "https://s2.loli.net/2022/04/19/ntROSo8huBYUVyr.jpg",
+          "del": "https://sm.ms/delete/NFOedCjKrk4Tc2hs7yagQ6DXWm",
+          "style": {
+            "maxWidth": "600px"
+          }
+        },
+        {
+          "type": "link",
+          "info": "画杨桃（一）",
+          "url": "https://www.zxx.edu.cn/syncClassroom/classActivity?activityId=c48dcac2-306a-4600-9319-34453b789801"
+        },
+        {
+          "type": "link",
+          "info": "画杨桃（二）",
+          "url": "https://www.zxx.edu.cn/syncClassroom/classActivity?activityId=63a50519-7d79-4ce3-a36e-56a671606c3f"
+        }
+      ]
+    },
+    {
+      "type": "math",
+      "name": "数学",
+      "segments": [
+        {
+          "type": "image",
+          "url": "https://s2.loli.net/2022/04/19/sZhRWoHSXbdpfFn.jpg",
+          "del": "https://sm.ms/delete/G9H54IQZyfFxSV7phKtX1kzouY",
+          "style": {
+            "maxWidth": "600px"
+          }
+        },
+        {
+          "type": "link",
+          "info": "视频《回收废电池》",
+          "url": "https://mp.weixin.qq.com/s/MSGhUHe4z1rdrtI6PID2iA"
+        }
+      ]
+    }
+  ]
+}
