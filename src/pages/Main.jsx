@@ -2,6 +2,7 @@ import React, {useEffect, useState} from "react";
 import {useParams} from "react-router-dom";
 import {Tabs} from "antd";
 import Segment from "../components/Segment";
+import Singleton from "../utils/single";
 
 const {TabPane} = Tabs;
 
@@ -12,7 +13,7 @@ export default function Main(props) {
 
     useEffect(
         () =>
-            fetch('api/courses/' + params.pageId + '.json')
+            fetch(`${Singleton.getInstance().appName}/api/courses/${params.pageId}.json`)
                 .then(resp => resp.json())
                 .then(json => setData(json)),
         [params.pageId]

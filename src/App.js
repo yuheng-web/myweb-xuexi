@@ -3,7 +3,9 @@ import {Route, Routes} from "react-router-dom";
 import AppLayout from "./layouts/AppLayout";
 import Home from "./pages/Home";
 import Main from "./pages/Main";
+import Singleton from "./utils/single";
 
+const appName = Singleton.getInstance().appName;
 
 export default function App(props) {
 
@@ -11,7 +13,7 @@ export default function App(props) {
 
     useEffect(
         () =>
-            fetch("api/courses/all.json")
+            fetch(`${appName}/api/courses/all.json`)
                 .then(resp => resp.json())
                 .then(result => setMenuList(result)),
         []
@@ -19,11 +21,9 @@ export default function App(props) {
 
     return (
         <Routes>
-            <Route path="/" element={<AppLayout menu={menuList}/>}>
+            <Route basename={appName} path={appName} element={<AppLayout menu={menuList}/>}>
+                <Route path=":pageId" element={<Main/>}/>
                 <Route index element={<Home/>}/>
-                <Route path=":pageId" element={<Main/>}>
-                    {/*<Route index element={null}/>*/}
-                </Route>
             </Route>
         </Routes>
     );

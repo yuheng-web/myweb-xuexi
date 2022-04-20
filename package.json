@@ -2,13 +2,13 @@
   "name": "myweb-xuexi",
   "version": "0.1.0",
   "private": true,
-  "homepage": ".",
+  "homepage": "xuexi",
   "scripts": {
     "clean": "rm -rf $(pwd)/build",
     "start": "cross-env PORT=3006 react-scripts start",
     "start.win": "set PORT=5000 && react-scripts start",
     "build": "rm -rf $(pwd)/build && react-scripts build",
-    "build.api": "cp -r res/api build/api",
+    "build.api": "cp -r public/api build/api",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
@@ -30,7 +30,6 @@
       "last 1 safari version"
     ]
   },
-  "proxy": "https://icanbe.vip/xuexi/",
   "dependencies": {
     "@ant-design/icons": "^4.7.0",
     "@testing-library/jest-dom": "^5.16.2",
