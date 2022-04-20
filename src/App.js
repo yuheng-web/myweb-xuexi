@@ -3,9 +3,9 @@ import {Route, Routes} from "react-router-dom";
 import AppLayout from "./layouts/AppLayout";
 import Home from "./pages/Home";
 import Main from "./pages/Main";
-import Singleton from "./utils/single";
+import CONSTANTS from "./config";
 
-const appName = Singleton.getInstance().appName;
+const appName = CONSTANTS.root;
 
 export default function App(props) {
 
@@ -21,7 +21,7 @@ export default function App(props) {
 
     return (
         <Routes>
-            <Route basename={appName} path={appName} element={<AppLayout menu={menuList}/>}>
+            <Route path={appName} element={<AppLayout menu={menuList}/>}>
                 <Route path=":pageId" element={<Main/>}/>
                 <Route index element={<Home/>}/>
             </Route>

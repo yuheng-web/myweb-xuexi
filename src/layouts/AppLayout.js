@@ -2,9 +2,9 @@ import './AppLayout.scss';
 import {Layout, Menu} from 'antd';
 import React from "react";
 import {Link, Outlet, useParams} from "react-router-dom";
-import Singleton from "../utils/single";
+import CONSTANTS from "../config";
 
-let appName = Singleton.getInstance().appName
+const appName = CONSTANTS.root;
 
 const {Header, Content, Footer} = Layout;
 
@@ -22,7 +22,7 @@ export default function AppLayout(props) {
                         props.menu
                             .map(mi => (
                             <Menu.Item key={mi.key}>
-                                <Link to={mi.key === 'home' ? `${appName}` : `${appName}/`+mi.key}> {mi.name}</Link>
+                                <Link to={mi.key === 'home' ? `${appName}` : `${appName}/${mi.key}`}> {mi.name}</Link>
                             </Menu.Item>
                         ))
                     }
