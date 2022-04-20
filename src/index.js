@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import './index.scss';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import {HashRouter as Router} from "react-router-dom";
+import {BrowserRouter as Router} from "react-router-dom";
 
 ReactDOM.render(
     // 执行两次 render 的原因 https://react.docschina.org/docs/strict-mode.html
