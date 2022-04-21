@@ -42,10 +42,11 @@
 }
 
 .logo {
-  width: 31px;
-  height: 31px;
+  width: 48px;
+  height: 30px;
   float: left;
-  margin: 16px 24px 16px 0;
-  background: rgba(205, 205, 205, 0.3);
+  margin: 18px 10px;
+  //background: rgba(205, 205, 205, 0.3);
+  background-image: url("/logo.svg");
 }
 
