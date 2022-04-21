@@ -9,7 +9,7 @@ const appName = CONSTANTS.root;
 
 export default function App(props) {
 
-    let [menuList, setMenuList] = useState([{"key": "home", "name": "首页"}]);
+    let [menuList, setMenuList] = useState([{"key": "home-default", "name": "首页"}]);
 
     useEffect(
         () =>
